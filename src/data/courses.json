@@ -1,0 +1,105 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "IIT JEE Advanced Crash Course",
+        "slug": "iit-jee-advanced-crash-course",
+        "description": "Intensive crash course designed to help students prepare for the IIT JEE Advanced exam in a short period of time.",
+        "price": 199.99,
+        "instructor": "Dr. Arjun Singh",
+        "isFeatured": true,
+        "image": "/courses/iit-jee.jpg" 
+      },
+      {
+        "id": 2,
+        "title": "NEET Medical Entrance Prep",
+        "slug": "neet-medical-entrance-prep",
+        "description": "Comprehensive course covering all subjects required for the NEET medical entrance exam, including Biology, Chemistry, and Physics.",
+        "price": 179.99,
+        "instructor": "Dr. Priya Sharma",
+        "isFeatured": false,
+        "image": "/courses/neet.jpg" 
+      },
+      {
+        "id": 3,
+        "title": "IIT JEE Main Mathematics Mastery",
+        "slug": "iit-jee-main-mathematics-mastery",
+        "description": "Focused course specifically targeting Mathematics topics for the IIT JEE Main exam, with emphasis on problem-solving techniques.",
+        "price": 149.99,
+        "instructor": "Prof. Rajesh Kumar",
+        "isFeatured": true,
+        "image": "/courses/iit-jee-math.jpg" 
+      },
+      {
+        "id": 4,
+        "title": "NEET Chemistry Crash Course",
+        "slug": "neet-chemistry-crash-course",
+        "description": "Accelerated course covering key Chemistry concepts required for success in the NEET exam.",
+        "price": 159.99,
+        "instructor": "Dr. Sameer Gupta",
+        "isFeatured": false,
+        "image": "/courses/neet-chemistry.jpg"
+      },
+      {
+        "id": 5,
+        "title": "IIT JEE Physics Essentials",
+        "slug": "iit-jee-physics-essentials",
+        "description": "Essential Physics concepts and problem-solving strategies tailored for the IIT JEE exam.",
+        "price": 169.99,
+        "instructor": "Dr. Ananya Mishra",
+        "isFeatured": false,
+        "image": "/courses/iit-jee-physics.jpg"
+      },
+      {
+        "id": 6,
+        "title": "NEET Biology Foundations",
+        "slug": "neet-biology-foundations",
+        "description": "Foundational course covering Biology fundamentals necessary for the NEET exam, including anatomy, physiology, and genetics.",
+        "price": 139.99,
+        "instructor": "Dr. Ramesh Verma",
+        "isFeatured": true,
+        "image": "/courses/neet-biology.jpg"
+      },
+      {
+        "id": 7,
+        "title": "IIT JEE Advanced Mock Test Series",
+        "slug": "iit-jee-advanced-mock-test-series",
+        "description": "Mock test series simulating the IIT JEE Advanced exam environment to help students gauge their preparedness and identify areas for improvement.",
+        "price": 129.99,
+        "instructor": "Prof. Deepak Tiwari",
+        "isFeatured": false,
+        "image": "/courses/iit-jee-mock.jpg"
+      },
+      {
+        "id": 8,
+        "title": "NEET Practice Exams Package",
+        "slug": "neet-practice-exams-package",
+        "description": "Comprehensive package of practice exams covering all subjects to aid students in their NEET preparation.",
+        "price": 119.99,
+        "instructor": "Dr. Sneha Patel",
+        "isFeatured": true,
+        "image": "/courses/neet-practice.jpg"
+      },
+      {
+        "id": 9,
+        "title": "IIT JEE Main Chemistry Mastery",
+        "slug": "iit-jee-main-chemistry-mastery",
+        "description": "In-depth course focusing on mastering Chemistry concepts and problem-solving techniques required for the IIT JEE Main exam.",
+        "price": 159.99,
+        "instructor": "Dr. Vikram Singh",
+        "isFeatured": false,
+        "image": "/courses/iit-jee-chemistry.jpg"
+      },
+      {
+        "id": 10,
+        "title": "NEET Physics Booster",
+        "slug": "neet-physics-booster",
+        "description": "Booster course designed to strengthen Physics skills and understanding for success in the NEET exam.",
+        "price": 149.99,
+        "instructor": "Prof. Ankit Sharma",
+        "isFeatured": true,
+        "image": "/courses/neet-physics.jpg"
+      }
+    ]
+  }
+  
