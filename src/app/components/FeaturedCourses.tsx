@@ -58,7 +58,7 @@ function FeaturedCourses() {
             View All courses
             </Link>
         </div> */}
-      <div className="mt-20 text-center">
+      {/* <div className="mt-20 text-center">
         <Link href={"/courses"}>
           <Button
             borderRadius="1.75rem"
@@ -67,7 +67,7 @@ function FeaturedCourses() {
             Explore courses
           </Button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }

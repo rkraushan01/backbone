@@ -3,6 +3,7 @@ import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
 import { Button } from "./ui/moving-border";
 import prashant from "@/data/prashant.jpg";
+import prashant2 from "@/data/prashant2.png"
 
 function HeroSection() {
   return (
@@ -33,7 +34,7 @@ function HeroSection() {
             <div>
               {/* Add your image here */}
               <img
-                src={prashant.src}
+                src={prashant2.src}
                 alt="Description of the image"
                 className="max-w-full h-auto"
               />
@@ -41,7 +42,7 @@ function HeroSection() {
           </div>
         </div>
 
-        <div className="mt-4">
+        {/* <div className="mt-4">
           <Link href={"/register"}>
             <Button
               borderRadius="1.75rem"
@@ -52,7 +53,7 @@ function HeroSection() {
               Register Now
             </Button>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );

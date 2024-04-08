@@ -1,0 +1,29 @@
+{
+    "partners": [
+      {
+        "id": 1,
+        "coachingName": "Allen Career Institute",
+        "description": "Leading coaching institute for JEE and NEET preparation, with a proven track record of producing top rankers.",
+        "coachingLogo": "https://bl-i.thgim.com/public/incoming/ky0mvh/article65526359.ece/alternates/FREE_1200/allen-logo.jpg",
+        "coachingWebsite": "https://www.allen.ac.in/",
+        "isFeatured": true
+      },
+      {
+        "id": 2,
+        "coachingName": "Resonance",
+        "description": "Renowned coaching institute offering comprehensive courses for JEE, NEET, and other competitive exams.",
+        "coachingLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-dLqz4qVeP4xSwQo0iM8g7OrkvJW_Qw1gJy0ZDn-WVg&s",
+        "coachingWebsite": "https://www.resonance.ac.in/",
+        "isFeatured": true
+      },
+      {
+        "id": 3,
+        "coachingName": "FIITJEE",
+        "description": "One of the oldest and most trusted coaching institutes specializing in engineering and medical entrance exam preparation.",
+        "coachingLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnkubyS5CVRqVGOlzOKCTNalshIZWqWHFBVlHBbRJOBQ&s",
+        "coachingWebsite": "https://www.fiitjee.com/",
+        "isFeatured": true
+      }
+    ]
+  }
+  
