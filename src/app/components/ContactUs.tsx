@@ -109,7 +109,7 @@ function Page() {
               type="text"
               id="fullname"
               placeholder="John Doe"
-              className="shadow-md px-6 py-2 border border-slate-300 bg-black"
+              className="shadow-md px-6 py-2 border border-slate-300 bg-black text-white"
             />
           </div>
 
@@ -122,7 +122,7 @@ function Page() {
               type="text"
               id="email"
               placeholder="ramesh@gmail.com"
-              className="shadow-md px-6 py-2 border border-slate-300 bg-black"
+              className="shadow-md px-6 py-2 border border-slate-300 bg-black text-white "
             />
           </div>
 
@@ -135,7 +135,7 @@ function Page() {
               type="text"
               id="phoneNumber"
               placeholder="1234567890"
-              className="shadow-md px-6 py-2 border border-slate-300 bg-black"
+              className="shadow-md px-6 py-2 border border-slate-300 bg-black text-white "
             />
           </div>
 
@@ -148,7 +148,7 @@ function Page() {
               type="text"
               id="state"
               placeholder="Delhi"
-              className="shadow-md px-6 py-2 border border-slate-300 bg-black"
+              className="shadow-md px-6 py-2 border border-slate-300 bg-black text-white "
             />
           </div>
 
@@ -158,7 +158,7 @@ function Page() {
             <textarea
               onChange={(e) => setMessage(e.target.value)}
               value={message}
-              className="h-32 shadow-md px-6 py-2 border border-slate-300 bg-black"
+              className="h-32 shadow-md px-6 py-2 border border-slate-300 bg-black text-white "
               id="message"
               placeholder="Type your message here..."
             ></textarea>

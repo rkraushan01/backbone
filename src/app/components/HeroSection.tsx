@@ -26,16 +26,14 @@ function HeroSection() {
   </div>
 
   {/* Right Side (Second Inner Div) */}
-  <div className="sm:pt-40 md: pt-400">
-    
-      
-      <img
-        src={prashant2.src}
-        alt="Description of the image"
-        className="max-w-full h-auto "
-      />
-    
-  </div>
+  <div className="flex items-center justify-center sm:pt-60 md:pt-400">
+  <img
+    src={prashant2.src}
+    alt="Description of the image"
+    className="object-cover h-full w-full"
+  />
+</div>
+
 </div>
 
 
