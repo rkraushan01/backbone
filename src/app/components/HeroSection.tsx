@@ -13,29 +13,21 @@ function HeroSection() {
         fill="white"
       />
       <div className="p-4 relative z-0 w-full text-center">
-      <div className="flex flex-col md:flex-row mt-5 gap-4 md:gap-8">
-  {/* Left Side (First Inner Div) */}
-  <div
-  
-    style={{ transform: "translate(10px, -80px)" }}
-    className="w-full md:w-1/2 md:pr-4  mt-10
-     
-    "
-  >
-    <ContactUs />
-  </div>
+        <div className="flex flex-col md:flex-row mt-5 gap-4 md:gap-8">
+          {/* Left Side (First Inner Div) */}
+          <div className="w-full h-auto md:w-1/2 md:pr-4  overflow-hidden ">
+            <ContactUs />
+          </div>
 
-  {/* Right Side (Second Inner Div) */}
-  <div className="flex items-center justify-center sm:pt-60 md:pt-400">
-  <img
-    src={prashant2.src}
-    alt="Description of the image"
-    className="object-cover h-full w-full"
-  />
-</div>
-
-</div>
-
+          {/* Right Side (Second Inner Div) */}
+          <div className="flex items-center justify-center sm:pt-60 ">
+            <img
+              src={prashant2.src}
+              alt="Description of the image"
+              className="object-cover h-full w-full "
+            />
+          </div>
+        </div>
 
         {/* <div className="mt-4">
           <Link href={"/register"}>

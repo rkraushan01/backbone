@@ -3,7 +3,6 @@ import React, { useState, FormEvent } from "react";
 
 import { cn } from "@/app/utils/cn";
 
-
 import { Button } from "./ui/moving-border";
 // Define interface for contact response
 interface ContactResponse {
@@ -85,16 +84,14 @@ function Page() {
     );
   };
   return (
-    <div className="flex items-center justify-center h-screen">
-      <div className="max-w-md w-full rounded-none md:rounded-2xl p-4 md:p-8 shadow-input bg-white dark:bg-black mt-60">
+    <div className="flex items-center justify-center">
+      <div className="max-w-md w-full rounded-none md:rounded-2xl p-4 md:p-8 shadow-input  dark:bg-black  ">
         <h2 className="font-bold text-xl text-neutral-800 dark:text-neutral-200">
           Welcome to BackboneJEE
         </h2>
         <p className="text-neutral-600 text-sm max-w-sm mt-2 dark:text-neutral-300">
           Enter your details here for Free Councelling
         </p>
-
-       
 
         <form
           onSubmit={handleSubmit}
@@ -128,7 +125,7 @@ function Page() {
 
           {/* Phone Number input */}
           <div className="flex flex-col gap-2">
-            <label htmlFor="phoneNumber">Phone Number*</label>
+            <label htmlFor="phoneNumber">Mobile*</label>
             <input
               onChange={(e) => setPhoneNumber(e.target.value)}
               value={phoneNumber}
@@ -167,17 +164,15 @@ function Page() {
           {/* Submit button */}
           <Button
             type="submit"
-            
             // className="font-bold bg-dark hover:bg-green-600 text-white h-10 px-5 rounded-md transition-colors duration-300 ease-in-out shadow-md hover:shadow-lg transform hover:-translate-y-1 motion-reduce:transform-none"
             borderRadius="15rem"
-              className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800
+            className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800
                     font-bold text-lg
                     "
           >
             Send
-           
           </Button>
-           {/* <button 
+          {/* <button 
          type="submit"
          className="bg-gradient-to-br relative group/btn from-black dark:from-zinc-900 dark:to-zinc-900 to-neutral-600 block dark:bg-zinc-800 w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset] mt-5">
            Send &rarr;
