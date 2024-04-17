@@ -1,10 +1,10 @@
-
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 // import Navbar from "./components/Navbar";
 import Navbar2 from "./components/Navbar2";
 const inter = Inter({ subsets: ["latin"] });
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "PointerZone",
@@ -17,17 +17,18 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
-      <body className={inter.className}>
-        
-        {/* <div className="relative w-full flex items-center justify-center ">
+    <>
+      <html lang="en" className="dark">
+        <body className={inter.className}>
+          {/* <div className="relative w-full flex items-center justify-center ">
           <Navbar/>
         </div> */}
-        <Navbar2 />
-       
-        {children}
-        
+          <Navbar2 />
+
+          {children}
         </body>
-    </html>
+      </html>
+      <Script src="https://checkout.razorpay.com/v1/checkout.js" />
+    </>
   );
 }

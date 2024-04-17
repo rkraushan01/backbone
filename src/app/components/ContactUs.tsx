@@ -99,7 +99,9 @@ function Page() {
         >
           {/* Full Name input */}
           <div className="flex flex-col gap-2">
-            <label htmlFor="fullname">Full Name*</label>
+            <label className="text-white" htmlFor="fullname">
+              Full Name*
+            </label>
             <input
               onChange={(e) => setFullname(e.target.value)}
               value={fullname}
@@ -112,7 +114,9 @@ function Page() {
 
           {/* Email input */}
           <div className="flex flex-col gap-2">
-            <label htmlFor="email">Email*</label>
+            <label className="text-white" htmlFor="email">
+              Email*
+            </label>
             <input
               onChange={(e) => setEmail(e.target.value)}
               value={email}
@@ -125,7 +129,9 @@ function Page() {
 
           {/* Phone Number input */}
           <div className="flex flex-col gap-2">
-            <label htmlFor="phoneNumber">Mobile*</label>
+            <label className="text-white" htmlFor="phoneNumber">
+              Mobile*
+            </label>
             <input
               onChange={(e) => setPhoneNumber(e.target.value)}
               value={phoneNumber}
@@ -138,7 +144,9 @@ function Page() {
 
           {/* State input */}
           <div className="flex flex-col gap-2">
-            <label htmlFor="state">State*</label>
+            <label className="text-white" htmlFor="state">
+              State*
+            </label>
             <input
               onChange={(e) => setState(e.target.value)}
               value={state}
@@ -151,7 +159,9 @@ function Page() {
 
           {/* Message textarea */}
           <div className="flex flex-col gap-2">
-            <label htmlFor="message">Your Message*</label>
+            <label className="text-white" htmlFor="message">
+              Your Message*
+            </label>
             <textarea
               onChange={(e) => setMessage(e.target.value)}
               value={message}
@@ -162,22 +172,19 @@ function Page() {
           </div>
 
           {/* Submit button */}
+
           <Button
             type="submit"
-            // className="font-bold bg-dark hover:bg-green-600 text-white h-10 px-5 rounded-md transition-colors duration-300 ease-in-out shadow-md hover:shadow-lg transform hover:-translate-y-1 motion-reduce:transform-none"
             borderRadius="15rem"
             className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800
-                    font-bold text-lg
-                    "
+              font-bold text-lg transition duration-150 ease-in-out
+              hover:bg-gray-100 dark:hover:bg-gray-900
+              active:bg-gray-200 dark:active:bg-gray-800
+              focus:outline-none focus:ring-2 focus:ring-gray-300 dark:focus:ring-gray-700
+              shadow-md hover:shadow-lg"
           >
             Send
           </Button>
-          {/* <button 
-         type="submit"
-         className="bg-gradient-to-br relative group/btn from-black dark:from-zinc-900 dark:to-zinc-900 to-neutral-600 block dark:bg-zinc-800 w-full text-white rounded-md h-10 font-medium shadow-[0px_1px_0px_0px_#ffffff40_inset,0px_-1px_0px_0px_#ffffff40_inset] dark:shadow-[0px_1px_0px_0px_var(--zinc-800)_inset,0px_-1px_0px_0px_var(--zinc-800)_inset] mt-5">
-           Send &rarr;
-           <BottomGradient />
-         </button> */}
         </form>
 
         {/* Display error messages */}

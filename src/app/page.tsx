@@ -4,10 +4,12 @@ import FeaturedCourses from "./components/FeaturedCourses";
 import Footer from "./components/Footer";
 import Testimonials from "./components/Testimonials"
 import Partners from "./components/Partners";
+import BuyProduct from '@/app/components/razorpay/BuyProduct'
 export default function Home() {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
     <HeroSection/>
+    {/* <BuyProduct/> */}
     <FeaturedCourses/>
     <Testimonials/>
     <Partners />
