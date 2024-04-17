@@ -4,7 +4,7 @@ import "./globals.css";
 // import Navbar from "./components/Navbar";
 import Navbar2 from "./components/Navbar2";
 const inter = Inter({ subsets: ["latin"] });
-import Script from "next/script";
+
 
 export const metadata: Metadata = {
   title: "PointerZone",
@@ -28,7 +28,7 @@ export default function RootLayout({
           {children}
         </body>
       </html>
-      <Script src="https://checkout.razorpay.com/v1/checkout.js" />
+     
     </>
   );
 }
