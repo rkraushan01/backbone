@@ -1,8 +1,6 @@
 "use client";
-import Link from "next/link";
 import { Spotlight } from "./ui/Spotlight";
 import { Button } from "./ui/moving-border";
-import prashant from "@/data/prashant.jpg";
 import prashant2 from "@/data/prashant2.png";
 import ContactUs from "@/app/components/ContactUs";
 function HeroSection() {

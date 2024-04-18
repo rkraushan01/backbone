@@ -2,6 +2,8 @@
 import React from "react";
 import { Button } from "@/app/components/ui/moving-border";
 import Link from "next/link";
+import RazorpayForm from "@/app/components/RazorpayForm";
+
 
 function page() {
   return (
@@ -65,7 +67,7 @@ function page() {
             </p>
           </div>
           <div className="px-4 py-5 sm:px-6 flex flex-col items-center">
-            <Link href={"/register"}>
+            {/* <Link href={"/register"}>
               <Button
                 borderRadius="1.75rem"
                 className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800
@@ -74,7 +76,11 @@ function page() {
               >
                 Register Now
               </Button>
-            </Link>
+            </Link> */}
+          
+            {/* Razorpay payment form */}
+           <RazorpayForm/>
+
             <p className="mt-10 max-w-2xl text-sm text-white text-center">
               Our team will contact you within 12 hours. Wish you all the best
               in this exciting phase of your academic journey! Unlock benefits:

@@ -1,0 +1,41 @@
+import React from 'react'
+import { useEffect } from 'react';
+
+
+
+  
+function RazorpayForm() {
+
+
+  
+
+useEffect(()=>{
+async function makeForm() {
+  const Script = document.createElement("script");
+  const Form = document.getElementById('donateForm');
+  Script.setAttribute('src',"https://checkout.razorpay.com/v1/payment-button.js")
+  Script.setAttribute('data-payment_button_id',"pl_O021xA8tDEiXlz")
+  Script.setAttribute('data-button_theme','brand-color')
+  Form.appendChild(Script); 
+
+   // Cleanup function
+   return () => {
+    Form.removeChild(Script);
+};
+     }
+makeForm()},[])
+
+
+  return (
+    <div>
+       <form id='donateForm'> </form>
+    </div>
+  )
+}
+
+export default RazorpayForm
+
+// <form>
+//   <script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_O021xA8tDEiXlz" async> 
+//   </script> 
+// </form>

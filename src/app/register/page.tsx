@@ -60,18 +60,7 @@ function page() {
             <Label htmlFor="mobile">Mobile No.</Label>
             <Input id="mobile" placeholder="" type="text" />
           </LabelInputContainer>
-        {/* <LabelInputContainer className="mb-4">
-          <Label htmlFor="password">Password</Label>
-          <Input id="password" placeholder="••••••••" type="password" />
-        </LabelInputContainer>
-        <LabelInputContainer className="mb-8">
-          <Label htmlFor="twitterpassword">Your twitter password</Label>
-          <Input
-            id="twitterpassword"
-            placeholder="••••••••"
-            type="twitterpassword"
-          />
-        </LabelInputContainer> */}
+       
  
        <Link href={'https://razorpay.com/'}>
        
@@ -86,10 +75,13 @@ function page() {
        
        </Link>
  
-        
+      
  
        
       </form>
+
+     
+
   </div>
 </div>
 
