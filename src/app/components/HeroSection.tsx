@@ -19,6 +19,10 @@ function HeroSection() {
 
           {/* Right Side (Second Inner Div) */}
           <div className="flex items-center justify-center sm:pt-60 ">
+            {/* <h1>
+            "Discover India's top educational consulting platform for expert guidance."
+
+            </h1> */}
             <img
               src={prashant2.src}
               alt="Description of the image"

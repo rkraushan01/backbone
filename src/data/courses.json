@@ -5,7 +5,7 @@
       "title": "JoSSA + CSAB",
       "slug": "jossa-csab",
       "description": "Understanding the intricacies of JoSAA counseling, PointerZone offers comprehensive assistance. Our experienced mentors conduct personalized one-on-one guidance sessions...",
-      "price": 199.99,
+      "price": 5000,
       "instructor": "Dr. Arjun Singh",
       "isFeatured": true,
       "image": "/courses/iit-jee.jpg" 
@@ -15,7 +15,7 @@
       "title": "JAC Delhi",
       "slug": "jac-delhi",
       "description": " PointerZone remains steadfast in its mission to guide students towards success. Adapting to changes in JAC Delhi counseling...",
-      "price": 179.99,
+      "price": 5000,
       "instructor": "Dr. Priya Sharma",
       "isFeatured": true,
       "image": "/courses/neet.jpg" 
@@ -25,7 +25,7 @@
       "title": "UPSEE/UPTU",
       "slug": "upsee-uptu",
       "description": "In the dynamic realm of engineering admissions, PointerZone stands as a steadfast ally to students. Staying up-to-date with changes in the UPTU and UPSEE counseling...",
-      "price": 149.99,
+      "price": 5000,
       "instructor": "Prof. Rajesh Kumar",
       "isFeatured": true,
       "image": "/courses/iit-jee-math.jpg" 
@@ -35,7 +35,7 @@
       "title": "GGSIPU",
       "slug": "ggsipu",
       "description": "In the fast-paced world of engineering admissions, PointerZone stands as a reliable guide for students. Staying abreast of changes in the GGSIPU (Guru Gobind Singh Indraprastha University) colleges...",
-      "price": 159.99,
+      "price": 3000,
       "instructor": "Dr. Sameer Gupta",
       "isFeatured": true,
       "image": "/courses/neet-chemistry.jpg"
@@ -45,7 +45,7 @@
       "title": "MHCET",
       "slug": "mhcet",
       "description": "It's really important for PointerZone to keep up with any changes happening in the MHCET (Maharashtra Common Entrance Test) colleges counseling...",
-      "price": 169.99,
+      "price": 3000,
       "instructor": "Dr. Ananya Mishra",
       "isFeatured": true,
       "image": "/courses/iit-jee-physics.jpg"
@@ -55,7 +55,7 @@
       "title": "MPDTE",
       "slug": "mpdte",
       "description": "It's crucial for PointerZone to stay updated with any changes in the MPDTE (Madhya Pradesh Directorate of Technical Education) colleges counseling...",
-      "price": 139.99,
+      "price": 3000,
       "instructor": "Dr. Ramesh Verma",
       "isFeatured": true,
       "image": "/courses/neet-biology.jpg"
@@ -65,7 +65,7 @@
       "title": "BITSAT",
       "slug": "bitsat",
       "description": "Ensuring students' success in their engineering endeavors, PointerZone diligently monitors updates in the BITSAT ...",
-      "price": 129.99,
+      "price": 5000,
       "instructor": "Prof. Deepak Tiwari",
       "isFeatured": true,
       "image": "/courses/iit-jee-mock.jpg"
@@ -75,7 +75,7 @@
       "title": "CUET",
       "slug": "cuet",
       "description": "To ensure students' success in their engineering aspirations, PointerZone remains vigilant about any developments in the CUET...",
-      "price": 119.99,
+      "price": 2000,
       "instructor": "Dr. Sneha Patel",
       "isFeatured": true,
       "image": "/courses/neet-practice.jpg"
@@ -85,7 +85,7 @@
       "title": "WBJEE",
       "slug": "wbjee",
       "description": "To uphold our commitment to students' engineering journey, PointerZone vigilantly tracks changes in WBJEE counseling, encompassing private colleges...",
-      "price": 159.99,
+      "price": 3000,
       "instructor": "Dr. Vikram Singh",
       "isFeatured": true,
       "image": "/courses/iit-jee-chemistry.jpg"
@@ -95,7 +95,7 @@
       "title": "ComedK",
       "slug": "comedk",
       "description": "Adapting to changes in the COMEDK counseling process is not just a necessity but a cornerstone of our commitment to student success. With COMEDK overseeing admissions...",
-      "price": 149.99,
+      "price": 5000,
       "instructor": "Prof. Ankit Sharma",
       "isFeatured": true,
       "image": "/courses/neet-physics.jpg"

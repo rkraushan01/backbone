@@ -40,10 +40,14 @@ function FeaturedCourses() {
                     {course.title}{" "}
                   </p>
                   <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">
-                    {course.description}
+                    Price: {course.price}
                   </p>
                   <Link className="text-white" href={`/courses/${course.slug}`}>
-                    Learn More
+                    <button
+                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                    >
+                    Register
+                    </button>
                   </Link>
                 </div>
               </BackgroundGradient>

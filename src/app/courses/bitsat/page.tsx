@@ -74,6 +74,7 @@ function page() {
               Connect with experienced IITians & NITians for personalized
               guidance. Enjoy unlimited WhatsApp support. Sign up now & embark
               on your academic journey confidently!
+              
             </p>
           </div>
         </div>
