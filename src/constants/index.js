@@ -5,8 +5,8 @@
       title: "About",
     },
     {
-      id: "work",
-      title: "Work",
+      id: "courses",
+      title: "Courses",
     },
     {
       id: "contact",

@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef, RefObject } from "react";
 import Link from "next/link";
 
 import { styles } from "@/styles";
@@ -15,7 +15,10 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const footerRef: RefObject<HTMLDivElement> = useRef(null);
+  const coursesRef: RefObject<HTMLDivElement> = useRef(null);
 
+  
   useEffect(() => {
     const handleScroll = () => {
       const scrollTop = window.scrollY;
@@ -30,6 +33,15 @@ const Navbar = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
+
+  const handleContactClick = () => {
+    setActive("Contact");
+    footerRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
+  const handleCoursesClick = () => {
+    setActive("Courses");
+    coursesRef.current?.scrollIntoView({ behavior: "smooth" });
+  };
 
   return (
     <nav
@@ -51,7 +63,7 @@ const Navbar = () => {
           <Image src= {pointerZoneLogo} alt='logo' className='w-9 h-9 object-contain' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             PointerZone &nbsp;
-            {/* <span className='sm:block hidden'> | Kumar</span> */}
+            {/* <span className='sm:block hidden'> | An IITians Hub</span> */}
           </p>
         </Link>
 

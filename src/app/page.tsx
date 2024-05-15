@@ -12,7 +12,7 @@ export default function Home() {
     
     <FeaturedCourses/>
     <Testimonials/>
-    <Partners />
+    {/* <Partners /> */}
     <Footer/>
   </main>
   );
